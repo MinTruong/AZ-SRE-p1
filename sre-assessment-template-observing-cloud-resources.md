@@ -54,11 +54,11 @@
 ### Applying the Concepts
 |API Heathcheck|
 |---|
-|![default ns](/evidence/API_HealthCheck.png)|
+|![default ns](/evidence/Graph_API.png)|
 |---|
 |4a. Given the above graph, where does it show that the API endpoint is down? Where on the graph does this show that the API is healthy again?|
 |---|
-|API endpoint is down at 00:37:30 and it healthy again at 00:45:30|
+|API endpoint is down at 15:27 and it healthy again at 15:36|
 |---|
 |4b. If there was no SRE team, how would this outage affect customers?|
 |---|
@@ -66,7 +66,7 @@
 |---|
 |4c. What could be put in place so that the SRE team could know of the outage before the customer does?|
 |---|
-|I think the SRE team rely on metrics healthcheck of instance to know when server outage|
+|There will be an alerts (can be sms, mail or call) for SRE team know before the customer does|
 |---|
 |Netwok Receive|
 |---|
